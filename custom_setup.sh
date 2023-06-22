@@ -2,11 +2,11 @@
 
 set -e
 
-VERSION=1.0.0
+VERSION=1.0.1
 
 RELEASE_VERSION=${VERSION}
 
-SDK_BIN_URL=https://github.com/MohamedRisaldarTA/webrtc_testbuild/releases/download/${VERSION}/libwebrtc.aar
+SDK_BIN_URL=https://github.com/MohamedRisaldarTA/webrtc-testbuild/releases/download/${VERSION}/libwebrtc.aar
 
 BUILD_DIR=build
 mkdir -p ${BUILD_DIR}
@@ -20,4 +20,4 @@ mvn install:install-file \
     -Dpackaging=aar \
     -Dversion=${RELEASE_VERSION} \
     -DgroupId=com.github.MohamedRisaldarTA \
-    -DartifactId=webrtc_testbuild
+    -DartifactId=webrtc-testbuild
