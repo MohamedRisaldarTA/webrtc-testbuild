@@ -2,7 +2,7 @@
 
 set -e
 
-VERSION=initial
+VERSION=1.0.0
 
 RELEASE_VERSION=${VERSION}
 
