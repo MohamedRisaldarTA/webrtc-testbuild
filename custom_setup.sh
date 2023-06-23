@@ -2,7 +2,7 @@
 
 set -e
 
-VERSION=4.0.0
+VERSION=5.0.0
 
 RELEASE_VERSION=${VERSION}
 
